@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection';
-import AboutSection from '../components/aboutSection';
+import AboutSection from '../components/AboutSection';
 import { aboutData, contactData, skillsData, workData } from '../store/Data';
 import SkillsSection from '../components/SkillsSection';
 import WorkSection from '../components/WorkSection';
