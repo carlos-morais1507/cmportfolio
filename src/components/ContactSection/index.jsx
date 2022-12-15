@@ -42,7 +42,7 @@ const ContactSection = ({lightBg, id, imgStart, topLine, headline, description, 
                             {contact.map(cont => {
                                 if(cont.type===3) {
                                     return(
-                                        <ContLink key={cont.id} href={cont.desc} target='blank'><img src={`${cont.name}.svg`} alt={cont.name}/></ContLink>
+                                        <ContLink key={cont.id} href={cont.desc} target='blank'><img src={`stackList/${cont.name}.svg`} alt={cont.name}/></ContLink>
                                     )
 
                                 }
